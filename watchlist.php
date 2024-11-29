@@ -8,25 +8,10 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 } else {
     // Include the header file
-    include("includes/header.php");?>
-        <nav class="navbar navbar-expand-lg navbar-light bg-info mb-0">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">Movie hunter</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-
-  
-      <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
-        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-        <li class="nav-item"><a class="nav-link active" href="watchlist.php">Watchlist</a></li>
-    </ul>
-
-    </div>
-  </div>
-</nav>
-    
+    include("includes/header.php");
+    include("includes/navbar.php");
+    ?>
+      
 
    <?php include("config.php");
     $api_key = 'api_key=d1df52f7f3812adac4100a4def73c18c';
