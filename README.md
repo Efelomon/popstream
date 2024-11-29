@@ -54,8 +54,8 @@ Follow these steps to run PopStream on your local machine:
   ```
 
 ### 2. Set Up the Database
-- Import the database.sql file (if included) into your MySQL database.
-- Update database connection details in the project files (e.g., config.php).
+- Import the popstream.sql fileinto your MySQL database.
+- Update database connection details in the project file(config.php).
   
 ### 3. Start a Local Server
 - Use XAMPP or any PHP server to host the project.
