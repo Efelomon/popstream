@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <!-- Centered search bar -->
       <div class="mx-auto">
-        <form class="d-flex" role="search" method="GET">
+        <form class="d-flex" role="search" method="GET" action="index.php" >
           <input class="form-control me-2" name="search" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-warning" type="submit">Search</button>
         </form>
