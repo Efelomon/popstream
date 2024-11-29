@@ -61,11 +61,11 @@ Follow these steps to run PopStream on your local machine:
 ### 4. Open in Browser
 - Access the project by navigating to http://localhost/popstream in your browser.
 
-## Future Improvements
-Advanced search filters (e.g., by genre, release year).
-Allow users to remove movies from the watchlist.
-User reviews and ratings for movies.
-Content recommendations based on watchlist.
+## Possible Future Improvements
+- Push Notifications
+- Multi-language Support (support different languages for international users)
+- User Activity Feed
+- In-App Movie Discussions
 
 ## License
 This project is licensed under the [MIT License](https://github.com/opensource.org/licenses/MIT).
