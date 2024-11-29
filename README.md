@@ -1,5 +1,5 @@
 # Popstream
-A simple movie streaming platform built with PHP and Bootstrap. PopStream allows users to explore popular movies, watch trailers, view cast information, and manage a watchlist.
+A simple movie streaming platform built with PHP and Bootstrap. PopStream allows users to explore popular movies, watch trailers, view cast information, and manage a watchlist. It utilizes the TMDB API to provide up-to-date movie information.
 
 This project was designed as a beginner-level exploration of web development with a focus on clean and functional design.
 
@@ -22,11 +22,14 @@ This project was designed as a beginner-level exploration of web development wit
 - Watchlist Management
   - Add movies to your personal watchlist.
  
-    
+- TMDB API Integration
+ - Fetch movie details, images, and trailers directly from TMDB (The Movie Database) API.
+
 ## Technologies Used
 - Backend: PHP
 - Frontend: Bootstrap (HTML/CSS/JavaScript)
-- Database: MySQL (or any database of your choice)
+- Database: MySQL 
+- API: TMDB (The Movie Database) API for fetching movie data
   
 ## Screenshots
 ### Movie listing page
