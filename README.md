@@ -31,12 +31,12 @@ This project was designed as a beginner-level exploration of web development wit
 ## Screenshots
 ### Movie listing page
 
-![Movie Listing Page](https://github.com/Efelomon/popstream/blob/master/project%20screenshots/index%20page.jpeg)
+[Movie Listing Page](https://github.com/Efelomon/popstream/blob/master/project%20screenshots/index%20page.jpeg)
 Browse a collection of popular movies.
 
 ### Watchlist Page
 
-![Watchlist Page](https://github.com/Efelomon/popstream/blob/master/project%20screenshots/watchlist%20page.jpeg)
+[Watchlist Page](https://github.com/Efelomon/popstream/blob/master/project%20screenshots/watchlist%20page.jpeg)
 Keep track of your favorite movies.
 
 (Add your actual screenshots here for better visual appeal.)
