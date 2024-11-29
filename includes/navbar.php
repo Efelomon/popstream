@@ -15,23 +15,22 @@
       </div>
       <!-- Right-aligned links -->
       <?php
-     
-       
+if (isset($_SESSION["user_id"])) {
+    // Display user name if available in session
+    $user_name = isset($_SESSION['username']) ? htmlspecialchars($_SESSION['username']) : 'Guest';
+    echo '<ul class="navbar-nav ms-auto mb-2 mb-lg-0">';
+    echo '<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">' . $user_name . '</a></li>';
+    echo '<li class="nav-item"><a class="nav-link active" href="./watchlist.php">Watchlist</a></li>';
+    echo '<li class="nav-item"><a class="nav-link active" href="./logout.php">Logout</a></li>';
+    echo '</ul>';
+} else {
+    echo '<ul class="navbar-nav ms-auto mb-2 mb-lg-0">';
+    echo '<li class="nav-item"><a class="nav-link active" href="./login.php">Login</a></li>';
+    echo '<li class="nav-item"><a class="nav-link active" href="./sign-up.php">Register</a></li>';
+    echo '</ul>';
+}
+?>
 
-      
-       if (isset($_SESSION["user_id"])) {
-          echo '<ul class="navbar-nav ms-auto mb-2 mb-lg-0">';
-          echo '<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">'.  htmlspecialchars($_GET["name"]).'</a></li>';
-          echo '<li class="nav-item"><a class="nav-link active" href="./watchlist.php">Watchlist</a></li>';
-          echo '<li class="nav-item"><a class="nav-link active" href="./logout.php">Logout</a></li>';
-          echo '</ul>';
-      } else {
-          echo '<ul class="navbar-nav ms-auto mb-2 mb-lg-0">';
-          echo '<li class="nav-item"><a class="nav-link active" href="./login.php">Login</a></li>';
-          echo '<li class="nav-item"><a class="nav-link active" href="./sign-up.php">Register</a></li>';
-          echo '</ul>';
-      }
-      ?>
     </div>
   </div>
 </nav>

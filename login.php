@@ -21,6 +21,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $hashed_password)) {
             
             session_start();
+               // Store user ID and username in session
+               $_SESSION['user_id'] = $id;
+               $_SESSION['username'] = $username; 
             $_SESSION['user_id'] = $id;
             header('Location: index.php?name='.$username);
         } else {
